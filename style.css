@@ -1,0 +1,123 @@
+@font-face {
+		font-family: helveticaNL;
+		src: url(HelveticaNeue-Light.otf);
+}
+.linkbottom{
+	color:black;
+    opacity: .8;
+	text-decoration:none;
+}
+.linkbottom:hover{
+	color:black;
+	opacity:1;
+}
+#footer{
+    font-size:0.8em;
+	color:darkgray;
+    padding-bottom: 5px;
+}
+
+body{
+	font-family: helveticaNL;
+    min-width: 300px;
+}
+html, body {
+	   height: 100%;
+        width: 100%;
+       margin: 0;
+       padding: 0;
+    
+}
+.main {
+	padding-top:20px!important;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+.button{
+
+	width: 246px!important;
+	display: inline-block;
+	background-color: transparent;
+	border-width: 0.2em;
+	min-height: 1em;
+	margin: 0 0 0 0;
+	padding: 13px 1.5em;
+	border-style: solid;
+	margin-top: 0px;
+	color:black;
+	text-decoration:none;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 700;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+.button2{
+	width: 300px!important;
+	display: inline-block;
+	background-color: transparent;
+	border-width: 0.2em;
+	min-height: 1em;
+	margin: 0 0 0 0;
+	font-family: helveticaNL;
+	font-size:0.95em;
+	border-color: black;
+	padding: 13px 1.5em;
+	border-style: solid;
+	margin-top: 0px;
+	color:black;
+	text-decoration:none;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 700;
+}
+input[type=text]{
+	border: 0px;
+	background: transparent;
+	min-width: 240px!important;
+    display: inline-block;
+}
+#username{
+	color:black;
+	font-weight:700
+	min-height: 1em;
+    padding: 13px 1.5em;
+	text-align:center;
+	width:300px;
+	font-size:16px;
+}
+form{
+	margin:0;
+	width:300px;
+	padding:0!important;
+}
+#imageTag{
+	width:300px;
+	height:300px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    black;
+}
+textarea:focus, input:focus{
+	outline: none;
+}
