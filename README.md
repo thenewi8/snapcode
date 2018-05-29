@@ -4,7 +4,7 @@
 
 Make your own custom snapcode
 
-[Live demo](https://snapcodes.herokuapp.com/)
+[Live demo](https://lens.yougraph.fr/snapcode)
 
 ## How it works
 
